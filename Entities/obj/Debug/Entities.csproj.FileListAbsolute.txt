@@ -7,3 +7,11 @@ C:\Users\User\source\repos\HotelSystem-master\Entities\obj\Debug\Entities.csproj
 C:\Users\User\source\repos\HotelSystem-master\Entities\obj\Debug\Entities.csproj.CopyComplete
 C:\Users\User\source\repos\HotelSystem-master\Entities\obj\Debug\Entities.dll
 C:\Users\User\source\repos\HotelSystem-master\Entities\obj\Debug\Entities.pdb
+C:\RepositorioHotel\DreamHotelMaster\Entities\bin\Debug\Entities.dll
+C:\RepositorioHotel\DreamHotelMaster\Entities\bin\Debug\Entities.pdb
+C:\RepositorioHotel\DreamHotelMaster\Entities\bin\Debug\Common.dll
+C:\RepositorioHotel\DreamHotelMaster\Entities\bin\Debug\Common.pdb
+C:\RepositorioHotel\DreamHotelMaster\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\RepositorioHotel\DreamHotelMaster\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\RepositorioHotel\DreamHotelMaster\Entities\obj\Debug\Entities.dll
+C:\RepositorioHotel\DreamHotelMaster\Entities\obj\Debug\Entities.pdb

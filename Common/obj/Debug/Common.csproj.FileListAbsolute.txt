@@ -4,3 +4,8 @@ C:\Users\User\source\repos\HotelSystem-master\Common\obj\Debug\Common.csprojAsse
 C:\Users\User\source\repos\HotelSystem-master\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\HotelSystem-master\Common\obj\Debug\Common.dll
 C:\Users\User\source\repos\HotelSystem-master\Common\obj\Debug\Common.pdb
+C:\RepositorioHotel\DreamHotelMaster\Common\bin\Debug\Common.dll
+C:\RepositorioHotel\DreamHotelMaster\Common\bin\Debug\Common.pdb
+C:\RepositorioHotel\DreamHotelMaster\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\RepositorioHotel\DreamHotelMaster\Common\obj\Debug\Common.dll
+C:\RepositorioHotel\DreamHotelMaster\Common\obj\Debug\Common.pdb

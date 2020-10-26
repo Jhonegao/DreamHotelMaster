@@ -10,6 +10,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Correios.CEP;
+using System.Drawing.Text;
+using System.IO;
+using System.Collections.ObjectModel;
 
 namespace PresentationLayer
 {
@@ -18,6 +21,7 @@ namespace PresentationLayer
         public FormCadastroCliente()
         {
             InitializeComponent();
+
         }
         List<Control> controles = new List<Control>();
 
@@ -281,28 +285,15 @@ namespace PresentationLayer
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            AddressBLL addressBLL = new AddressBLL();
-            UserBLL userBLL = new UserBLL();
-            User user = new User();
-            cepConsulta ceepAddress = correiosCEP.GetAddress("08260030");
-            Address address = new Address();
-            address.Pais = "Brasil";
-            address.Rua = ceepAddress.Rua;
-            address.CEP = ceepAddress.Cep;
-            address.Bairro = ceepAddress.Bairro;
-            address.Cidade = ceepAddress.Cidade;
-            address.UF = ceepAddress.UF;
-            address.Numero = "666";
-            user.Nome = "Joana";
-            user.Cpf = "28004996051";
-            user.Rg = "567467";
-            user.Senha = "Anaoj";
-            user.Telefone = "479999995";
-            user.Email = "twenty@gmail.com";
-            user.EnderecoId = 3;
-            AddressUserTransaction tr = new AddressUserTransaction(address, user);
-            //Response response = userBLL.Insert(user);
-            //MessageBox.Show(response.Message);
+
+        }
+
+        private void FormCadastroCliente_Load(object sender, EventArgs e)
+        {
+            string path = Path.Combine(Environment.CurrentDirectory, @"Fonts\", "GatsbyFLF.ttf");
+            PrivateFontCollection pfc = new PrivateFontCollection();
+            pfc.AddFontFile(path);
+            FontFamily fontFamily = new FontFamily(pfc.Families.First().Name, pfc);
         }
     }
 }
