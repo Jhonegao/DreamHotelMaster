@@ -24,7 +24,10 @@ namespace Entities
         public string Email { get; set; }
         [Length(15)]
         [@MinLength(15)]
-        public List<string> Telefones  { get; set; }
+        public string Telefone { get; set; }
+        [Length(15)]
+        [@MinLength(15)]
+        public string Telefone_Aux { get; set; } = "Não informadoi";
         public int EnderecoId { get; set; }
         public Address Endereco { get; set; }
         public DateTime Data_Cadastro { get; set; }

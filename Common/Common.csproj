@@ -48,5 +48,8 @@
     <Compile Include="Response.cs" />
     <Compile Include="SingleResponse.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="LibsAux\Correios.CEP.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
