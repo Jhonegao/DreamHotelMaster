@@ -83,9 +83,10 @@
             this.linhaNome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
             this.linhaNome.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.linhaNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linhaNome.Location = new System.Drawing.Point(0, 31);
+            this.linhaNome.Location = new System.Drawing.Point(0, 39);
+            this.linhaNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linhaNome.Name = "linhaNome";
-            this.linhaNome.Size = new System.Drawing.Size(343, 1);
+            this.linhaNome.Size = new System.Drawing.Size(457, 1);
             this.linhaNome.TabIndex = 24;
             // 
             // txtCpf
@@ -96,8 +97,9 @@
             this.txtCpf.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCpf.ForeColor = System.Drawing.Color.Silver;
             this.txtCpf.Location = new System.Drawing.Point(0, 0);
+            this.txtCpf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCpf.Name = "txtCpf";
-            this.txtCpf.Size = new System.Drawing.Size(343, 31);
+            this.txtCpf.Size = new System.Drawing.Size(457, 39);
             this.txtCpf.TabIndex = 23;
             this.txtCpf.Text = "CPF";
             this.txtCpf.Enter += new System.EventHandler(this.txtCpf_Enter);
@@ -111,8 +113,9 @@
             this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNome.ForeColor = System.Drawing.Color.Silver;
             this.txtNome.Location = new System.Drawing.Point(0, 0);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(343, 31);
+            this.txtNome.Size = new System.Drawing.Size(457, 39);
             this.txtNome.TabIndex = 22;
             this.txtNome.Text = "Nome";
             this.txtNome.Enter += new System.EventHandler(this.txtNome_Enter);
@@ -129,9 +132,10 @@
             this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
-            this.btnCadastrar.Location = new System.Drawing.Point(215, 380);
+            this.btnCadastrar.Location = new System.Drawing.Point(287, 468);
+            this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(408, 40);
+            this.btnCadastrar.Size = new System.Drawing.Size(544, 49);
             this.btnCadastrar.TabIndex = 20;
             this.btnCadastrar.Text = "CADASTRAR";
             this.btnCadastrar.UseVisualStyleBackColor = false;
@@ -142,9 +146,10 @@
             this.labelCadastroCliente.AutoSize = true;
             this.labelCadastroCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelCadastroCliente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
-            this.labelCadastroCliente.Location = new System.Drawing.Point(274, 23);
+            this.labelCadastroCliente.Location = new System.Drawing.Point(365, 28);
+            this.labelCadastroCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCadastroCliente.Name = "labelCadastroCliente";
-            this.labelCadastroCliente.Size = new System.Drawing.Size(474, 42);
+            this.labelCadastroCliente.Size = new System.Drawing.Size(590, 54);
             this.labelCadastroCliente.TabIndex = 21;
             this.labelCadastroCliente.Text = "CADASTRO DE CLIENTE";
             // 
@@ -156,8 +161,9 @@
             this.txtRg.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRg.ForeColor = System.Drawing.Color.Silver;
             this.txtRg.Location = new System.Drawing.Point(0, 0);
+            this.txtRg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtRg.Name = "txtRg";
-            this.txtRg.Size = new System.Drawing.Size(343, 31);
+            this.txtRg.Size = new System.Drawing.Size(457, 39);
             this.txtRg.TabIndex = 26;
             this.txtRg.Text = "RG";
             this.txtRg.Enter += new System.EventHandler(this.txtRg_Enter);
@@ -171,8 +177,9 @@
             this.txtCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCidade.ForeColor = System.Drawing.Color.Silver;
             this.txtCidade.Location = new System.Drawing.Point(0, 0);
+            this.txtCidade.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(343, 31);
+            this.txtCidade.Size = new System.Drawing.Size(457, 39);
             this.txtCidade.TabIndex = 35;
             this.txtCidade.Text = "Cidade";
             this.txtCidade.Enter += new System.EventHandler(this.txtCidade_Enter);
@@ -186,8 +193,9 @@
             this.txtUf.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUf.ForeColor = System.Drawing.Color.Silver;
             this.txtUf.Location = new System.Drawing.Point(0, 0);
+            this.txtUf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUf.Name = "txtUf";
-            this.txtUf.Size = new System.Drawing.Size(163, 31);
+            this.txtUf.Size = new System.Drawing.Size(217, 39);
             this.txtUf.TabIndex = 34;
             this.txtUf.Text = "UF";
             this.txtUf.Enter += new System.EventHandler(this.txtUf_Enter);
@@ -201,8 +209,9 @@
             this.txtPais.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPais.ForeColor = System.Drawing.Color.Silver;
             this.txtPais.Location = new System.Drawing.Point(0, 0);
+            this.txtPais.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPais.Name = "txtPais";
-            this.txtPais.Size = new System.Drawing.Size(163, 31);
+            this.txtPais.Size = new System.Drawing.Size(217, 39);
             this.txtPais.TabIndex = 31;
             this.txtPais.Text = "País";
             this.txtPais.Enter += new System.EventHandler(this.txtPais_Enter);
@@ -216,8 +225,9 @@
             this.txtCep.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCep.ForeColor = System.Drawing.Color.Silver;
             this.txtCep.Location = new System.Drawing.Point(0, 0);
+            this.txtCep.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCep.Name = "txtCep";
-            this.txtCep.Size = new System.Drawing.Size(343, 31);
+            this.txtCep.Size = new System.Drawing.Size(457, 39);
             this.txtCep.TabIndex = 30;
             this.txtCep.Text = "CEP";
             this.txtCep.Enter += new System.EventHandler(this.txtCep_Enter);
@@ -231,8 +241,9 @@
             this.txtRua.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRua.ForeColor = System.Drawing.Color.Silver;
             this.txtRua.Location = new System.Drawing.Point(0, 0);
+            this.txtRua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtRua.Name = "txtRua";
-            this.txtRua.Size = new System.Drawing.Size(163, 31);
+            this.txtRua.Size = new System.Drawing.Size(217, 39);
             this.txtRua.TabIndex = 43;
             this.txtRua.Text = "Rua";
             this.txtRua.Enter += new System.EventHandler(this.txtRua_Enter);
@@ -246,8 +257,9 @@
             this.txtBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBairro.ForeColor = System.Drawing.Color.Silver;
             this.txtBairro.Location = new System.Drawing.Point(0, 0);
+            this.txtBairro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBairro.Name = "txtBairro";
-            this.txtBairro.Size = new System.Drawing.Size(163, 31);
+            this.txtBairro.Size = new System.Drawing.Size(217, 39);
             this.txtBairro.TabIndex = 42;
             this.txtBairro.Text = "Bairro";
             this.txtBairro.Enter += new System.EventHandler(this.txtBairro_Enter);
@@ -261,8 +273,9 @@
             this.txtTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefone.ForeColor = System.Drawing.Color.Silver;
             this.txtTelefone.Location = new System.Drawing.Point(0, 0);
+            this.txtTelefone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(163, 31);
+            this.txtTelefone.Size = new System.Drawing.Size(217, 39);
             this.txtTelefone.TabIndex = 46;
             this.txtTelefone.Text = "Telefone";
             this.txtTelefone.Enter += new System.EventHandler(this.txtTelefone_Enter);
@@ -273,9 +286,10 @@
             this.labelDadosPessoais.AutoSize = true;
             this.labelDadosPessoais.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelDadosPessoais.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
-            this.labelDadosPessoais.Location = new System.Drawing.Point(28, 101);
+            this.labelDadosPessoais.Location = new System.Drawing.Point(37, 124);
+            this.labelDadosPessoais.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDadosPessoais.Name = "labelDadosPessoais";
-            this.labelDadosPessoais.Size = new System.Drawing.Size(304, 42);
+            this.labelDadosPessoais.Size = new System.Drawing.Size(376, 54);
             this.labelDadosPessoais.TabIndex = 50;
             this.labelDadosPessoais.Text = "Dados Pessoais";
             // 
@@ -284,9 +298,10 @@
             this.labelEndereco.AutoSize = true;
             this.labelEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelEndereco.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
-            this.labelEndereco.Location = new System.Drawing.Point(423, 101);
+            this.labelEndereco.Location = new System.Drawing.Point(564, 124);
+            this.labelEndereco.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEndereco.Name = "labelEndereco";
-            this.labelEndereco.Size = new System.Drawing.Size(187, 42);
+            this.labelEndereco.Size = new System.Drawing.Size(232, 54);
             this.labelEndereco.TabIndex = 51;
             this.labelEndereco.Text = "Endereço";
             // 
@@ -295,9 +310,10 @@
             this.panelNome.AutoSize = true;
             this.panelNome.Controls.Add(this.txtNome);
             this.panelNome.Controls.Add(this.linhaNome);
-            this.panelNome.Location = new System.Drawing.Point(35, 157);
+            this.panelNome.Location = new System.Drawing.Point(47, 193);
+            this.panelNome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelNome.Name = "panelNome";
-            this.panelNome.Size = new System.Drawing.Size(343, 32);
+            this.panelNome.Size = new System.Drawing.Size(457, 40);
             this.panelNome.TabIndex = 52;
             // 
             // panelCpf
@@ -305,9 +321,10 @@
             this.panelCpf.AutoSize = true;
             this.panelCpf.Controls.Add(this.linhaCpf);
             this.panelCpf.Controls.Add(this.txtCpf);
-            this.panelCpf.Location = new System.Drawing.Point(35, 206);
+            this.panelCpf.Location = new System.Drawing.Point(47, 254);
+            this.panelCpf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelCpf.Name = "panelCpf";
-            this.panelCpf.Size = new System.Drawing.Size(343, 32);
+            this.panelCpf.Size = new System.Drawing.Size(457, 40);
             this.panelCpf.TabIndex = 53;
             // 
             // linhaCpf
@@ -315,9 +332,10 @@
             this.linhaCpf.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
             this.linhaCpf.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.linhaCpf.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linhaCpf.Location = new System.Drawing.Point(0, 31);
+            this.linhaCpf.Location = new System.Drawing.Point(0, 39);
+            this.linhaCpf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linhaCpf.Name = "linhaCpf";
-            this.linhaCpf.Size = new System.Drawing.Size(343, 1);
+            this.linhaCpf.Size = new System.Drawing.Size(457, 1);
             this.linhaCpf.TabIndex = 24;
             // 
             // panelRg
@@ -325,9 +343,10 @@
             this.panelRg.AutoSize = true;
             this.panelRg.Controls.Add(this.linhaRg);
             this.panelRg.Controls.Add(this.txtRg);
-            this.panelRg.Location = new System.Drawing.Point(35, 256);
+            this.panelRg.Location = new System.Drawing.Point(47, 315);
+            this.panelRg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelRg.Name = "panelRg";
-            this.panelRg.Size = new System.Drawing.Size(343, 32);
+            this.panelRg.Size = new System.Drawing.Size(457, 40);
             this.panelRg.TabIndex = 54;
             // 
             // linhaRg
@@ -335,9 +354,10 @@
             this.linhaRg.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
             this.linhaRg.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.linhaRg.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linhaRg.Location = new System.Drawing.Point(0, 31);
+            this.linhaRg.Location = new System.Drawing.Point(0, 39);
+            this.linhaRg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linhaRg.Name = "linhaRg";
-            this.linhaRg.Size = new System.Drawing.Size(343, 1);
+            this.linhaRg.Size = new System.Drawing.Size(457, 1);
             this.linhaRg.TabIndex = 24;
             // 
             // panelTelefone
@@ -345,9 +365,10 @@
             this.panelTelefone.AutoSize = true;
             this.panelTelefone.Controls.Add(this.linhaTelefone);
             this.panelTelefone.Controls.Add(this.txtTelefone);
-            this.panelTelefone.Location = new System.Drawing.Point(35, 305);
+            this.panelTelefone.Location = new System.Drawing.Point(47, 375);
+            this.panelTelefone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelTelefone.Name = "panelTelefone";
-            this.panelTelefone.Size = new System.Drawing.Size(163, 32);
+            this.panelTelefone.Size = new System.Drawing.Size(217, 40);
             this.panelTelefone.TabIndex = 55;
             // 
             // linhaTelefone
@@ -355,9 +376,10 @@
             this.linhaTelefone.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
             this.linhaTelefone.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.linhaTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linhaTelefone.Location = new System.Drawing.Point(0, 31);
+            this.linhaTelefone.Location = new System.Drawing.Point(0, 39);
+            this.linhaTelefone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linhaTelefone.Name = "linhaTelefone";
-            this.linhaTelefone.Size = new System.Drawing.Size(163, 1);
+            this.linhaTelefone.Size = new System.Drawing.Size(217, 1);
             this.linhaTelefone.TabIndex = 24;
             // 
             // panelTelefone2
@@ -365,9 +387,10 @@
             this.panelTelefone2.AutoSize = true;
             this.panelTelefone2.Controls.Add(this.linhaTelefone2);
             this.panelTelefone2.Controls.Add(this.txtTelefone2);
-            this.panelTelefone2.Location = new System.Drawing.Point(215, 305);
+            this.panelTelefone2.Location = new System.Drawing.Point(287, 375);
+            this.panelTelefone2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelTelefone2.Name = "panelTelefone2";
-            this.panelTelefone2.Size = new System.Drawing.Size(163, 32);
+            this.panelTelefone2.Size = new System.Drawing.Size(217, 40);
             this.panelTelefone2.TabIndex = 56;
             // 
             // linhaTelefone2
@@ -375,9 +398,10 @@
             this.linhaTelefone2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
             this.linhaTelefone2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.linhaTelefone2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linhaTelefone2.Location = new System.Drawing.Point(0, 31);
+            this.linhaTelefone2.Location = new System.Drawing.Point(0, 39);
+            this.linhaTelefone2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linhaTelefone2.Name = "linhaTelefone2";
-            this.linhaTelefone2.Size = new System.Drawing.Size(163, 1);
+            this.linhaTelefone2.Size = new System.Drawing.Size(217, 1);
             this.linhaTelefone2.TabIndex = 24;
             // 
             // txtTelefone2
@@ -388,8 +412,9 @@
             this.txtTelefone2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefone2.ForeColor = System.Drawing.Color.Silver;
             this.txtTelefone2.Location = new System.Drawing.Point(0, 0);
+            this.txtTelefone2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTelefone2.Name = "txtTelefone2";
-            this.txtTelefone2.Size = new System.Drawing.Size(163, 31);
+            this.txtTelefone2.Size = new System.Drawing.Size(217, 39);
             this.txtTelefone2.TabIndex = 46;
             this.txtTelefone2.Text = "Telefone*";
             this.txtTelefone2.Enter += new System.EventHandler(this.txtTelefone2_Enter);
@@ -400,9 +425,10 @@
             this.panelCep.AutoSize = true;
             this.panelCep.Controls.Add(this.linhaCep);
             this.panelCep.Controls.Add(this.txtCep);
-            this.panelCep.Location = new System.Drawing.Point(430, 156);
+            this.panelCep.Location = new System.Drawing.Point(573, 192);
+            this.panelCep.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelCep.Name = "panelCep";
-            this.panelCep.Size = new System.Drawing.Size(343, 32);
+            this.panelCep.Size = new System.Drawing.Size(457, 40);
             this.panelCep.TabIndex = 57;
             // 
             // linhaCep
@@ -410,9 +436,10 @@
             this.linhaCep.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
             this.linhaCep.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.linhaCep.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linhaCep.Location = new System.Drawing.Point(0, 31);
+            this.linhaCep.Location = new System.Drawing.Point(0, 39);
+            this.linhaCep.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linhaCep.Name = "linhaCep";
-            this.linhaCep.Size = new System.Drawing.Size(343, 1);
+            this.linhaCep.Size = new System.Drawing.Size(457, 1);
             this.linhaCep.TabIndex = 24;
             // 
             // panelPais
@@ -420,9 +447,10 @@
             this.panelPais.AutoSize = true;
             this.panelPais.Controls.Add(this.linhaPais);
             this.panelPais.Controls.Add(this.txtPais);
-            this.panelPais.Location = new System.Drawing.Point(430, 206);
+            this.panelPais.Location = new System.Drawing.Point(573, 254);
+            this.panelPais.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelPais.Name = "panelPais";
-            this.panelPais.Size = new System.Drawing.Size(163, 32);
+            this.panelPais.Size = new System.Drawing.Size(217, 40);
             this.panelPais.TabIndex = 58;
             // 
             // linhaPais
@@ -430,9 +458,10 @@
             this.linhaPais.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
             this.linhaPais.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.linhaPais.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linhaPais.Location = new System.Drawing.Point(0, 31);
+            this.linhaPais.Location = new System.Drawing.Point(0, 39);
+            this.linhaPais.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linhaPais.Name = "linhaPais";
-            this.linhaPais.Size = new System.Drawing.Size(163, 1);
+            this.linhaPais.Size = new System.Drawing.Size(217, 1);
             this.linhaPais.TabIndex = 24;
             // 
             // panelUf
@@ -440,9 +469,10 @@
             this.panelUf.AutoSize = true;
             this.panelUf.Controls.Add(this.LinhaUf);
             this.panelUf.Controls.Add(this.txtUf);
-            this.panelUf.Location = new System.Drawing.Point(610, 206);
+            this.panelUf.Location = new System.Drawing.Point(813, 254);
+            this.panelUf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelUf.Name = "panelUf";
-            this.panelUf.Size = new System.Drawing.Size(163, 32);
+            this.panelUf.Size = new System.Drawing.Size(217, 40);
             this.panelUf.TabIndex = 59;
             // 
             // LinhaUf
@@ -450,9 +480,10 @@
             this.LinhaUf.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
             this.LinhaUf.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.LinhaUf.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LinhaUf.Location = new System.Drawing.Point(0, 31);
+            this.LinhaUf.Location = new System.Drawing.Point(0, 39);
+            this.LinhaUf.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LinhaUf.Name = "LinhaUf";
-            this.LinhaUf.Size = new System.Drawing.Size(163, 1);
+            this.LinhaUf.Size = new System.Drawing.Size(217, 1);
             this.LinhaUf.TabIndex = 24;
             // 
             // panelCidade
@@ -460,9 +491,10 @@
             this.panelCidade.AutoSize = true;
             this.panelCidade.Controls.Add(this.linhaCidade);
             this.panelCidade.Controls.Add(this.txtCidade);
-            this.panelCidade.Location = new System.Drawing.Point(430, 256);
+            this.panelCidade.Location = new System.Drawing.Point(573, 315);
+            this.panelCidade.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelCidade.Name = "panelCidade";
-            this.panelCidade.Size = new System.Drawing.Size(343, 32);
+            this.panelCidade.Size = new System.Drawing.Size(457, 40);
             this.panelCidade.TabIndex = 60;
             // 
             // linhaCidade
@@ -470,9 +502,10 @@
             this.linhaCidade.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
             this.linhaCidade.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.linhaCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linhaCidade.Location = new System.Drawing.Point(0, 31);
+            this.linhaCidade.Location = new System.Drawing.Point(0, 39);
+            this.linhaCidade.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linhaCidade.Name = "linhaCidade";
-            this.linhaCidade.Size = new System.Drawing.Size(343, 1);
+            this.linhaCidade.Size = new System.Drawing.Size(457, 1);
             this.linhaCidade.TabIndex = 24;
             // 
             // panelBairro
@@ -480,9 +513,10 @@
             this.panelBairro.AutoSize = true;
             this.panelBairro.Controls.Add(this.linhaBairro);
             this.panelBairro.Controls.Add(this.txtBairro);
-            this.panelBairro.Location = new System.Drawing.Point(430, 305);
+            this.panelBairro.Location = new System.Drawing.Point(573, 375);
+            this.panelBairro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelBairro.Name = "panelBairro";
-            this.panelBairro.Size = new System.Drawing.Size(163, 32);
+            this.panelBairro.Size = new System.Drawing.Size(217, 40);
             this.panelBairro.TabIndex = 61;
             // 
             // linhaBairro
@@ -490,9 +524,10 @@
             this.linhaBairro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
             this.linhaBairro.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.linhaBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linhaBairro.Location = new System.Drawing.Point(0, 31);
+            this.linhaBairro.Location = new System.Drawing.Point(0, 39);
+            this.linhaBairro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linhaBairro.Name = "linhaBairro";
-            this.linhaBairro.Size = new System.Drawing.Size(163, 1);
+            this.linhaBairro.Size = new System.Drawing.Size(217, 1);
             this.linhaBairro.TabIndex = 24;
             // 
             // panelRua
@@ -500,9 +535,10 @@
             this.panelRua.AutoSize = true;
             this.panelRua.Controls.Add(this.linhaRua);
             this.panelRua.Controls.Add(this.txtRua);
-            this.panelRua.Location = new System.Drawing.Point(610, 305);
+            this.panelRua.Location = new System.Drawing.Point(813, 375);
+            this.panelRua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelRua.Name = "panelRua";
-            this.panelRua.Size = new System.Drawing.Size(163, 32);
+            this.panelRua.Size = new System.Drawing.Size(217, 40);
             this.panelRua.TabIndex = 62;
             // 
             // linhaRua
@@ -510,18 +546,19 @@
             this.linhaRua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
             this.linhaRua.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.linhaRua.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linhaRua.Location = new System.Drawing.Point(0, 31);
+            this.linhaRua.Location = new System.Drawing.Point(0, 39);
+            this.linhaRua.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linhaRua.Name = "linhaRua";
-            this.linhaRua.Size = new System.Drawing.Size(163, 1);
+            this.linhaRua.Size = new System.Drawing.Size(217, 1);
             this.linhaRua.TabIndex = 24;
             // 
             // FormCadastroCliente
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.panelRua);
             this.Controls.Add(this.panelBairro);
             this.Controls.Add(this.panelCidade);
@@ -537,6 +574,7 @@
             this.Controls.Add(this.labelDadosPessoais);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.labelCadastroCliente);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormCadastroCliente";
             this.Text = "Cadastro de Cliente";
             this.MouseEnter += new System.EventHandler(this.FormCadastroCliente_MouseEnter);

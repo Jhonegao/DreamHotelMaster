@@ -6,14 +6,17 @@ using System.Threading.Tasks;
 
 namespace DataAccessLayer.Infraestructure
 {
-    class ConnectionHelper
+    public class ConnectionHelper
     {
+        const string JhonDBPROWAY = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\entra21\source\repos\DreamHotel\dbt\dbHotel.mdf;Integrated Security=True;Connect Timeout=30";
 
         const string JhonDBcasa = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\repositories\DreamHotel\dbt\dbHotel.mdf;Integrated Security=True;Connect Timeout=30";
+        
         const string JoanaDBcasa = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\entra21\Documents\DataBHotel.mdf;Integrated Security=True;Connect Timeout=30";
+        
         public static string GetConnectionString()
         {
-            return JhonDBcasa;
+            return JhonDBPROWAY;
         }
     }
 }

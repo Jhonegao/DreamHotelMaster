@@ -1,0 +1,12 @@
+C:\RepoHotel\DreamHotelMaster\BusinessLogicalLayer\obj\Debug\BusinessLogicalLayer.csprojAssemblyReference.cache
+C:\RepoHotel\DreamHotelMaster\BusinessLogicalLayer\bin\Debug\BusinessLogicalLayer.dll
+C:\RepoHotel\DreamHotelMaster\BusinessLogicalLayer\bin\Debug\BusinessLogicalLayer.pdb
+C:\RepoHotel\DreamHotelMaster\BusinessLogicalLayer\bin\Debug\Common.dll
+C:\RepoHotel\DreamHotelMaster\BusinessLogicalLayer\bin\Debug\DataAccessLayer.dll
+C:\RepoHotel\DreamHotelMaster\BusinessLogicalLayer\bin\Debug\Entities.dll
+C:\RepoHotel\DreamHotelMaster\BusinessLogicalLayer\bin\Debug\Common.pdb
+C:\RepoHotel\DreamHotelMaster\BusinessLogicalLayer\bin\Debug\DataAccessLayer.pdb
+C:\RepoHotel\DreamHotelMaster\BusinessLogicalLayer\bin\Debug\Entities.pdb
+C:\RepoHotel\DreamHotelMaster\BusinessLogicalLayer\obj\Debug\BusinessLogicalLayer.csproj.CopyComplete
+C:\RepoHotel\DreamHotelMaster\BusinessLogicalLayer\obj\Debug\BusinessLogicalLayer.dll
+C:\RepoHotel\DreamHotelMaster\BusinessLogicalLayer\obj\Debug\BusinessLogicalLayer.pdb

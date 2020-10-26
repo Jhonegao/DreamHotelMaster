@@ -51,7 +51,7 @@ namespace PresentationLayer
             {
                 btnCadastrar.BackColor = Color.FromArgb(20, 20, 20);
                 btnCadastrar.ForeColor = Color.Silver;
-                btnCadastrar.Enabled = false;
+                btnCadastrar.Enabled = true;
                 btnCadastrar.Cursor = Cursors.Default;
             }
             controles.Clear();
@@ -281,8 +281,8 @@ namespace PresentationLayer
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            AddressBLL addressBLL = new AddressBLL();
-            UserBLL userBLL = new UserBLL();
+            //AddressBLL addressBLL = new AddressBLL();
+            //UserBLL userBLL = new UserBLL();
             User user = new User();
             cepConsulta ceepAddress = correiosCEP.GetAddress("08260030");
             Address address = new Address();
@@ -291,18 +291,19 @@ namespace PresentationLayer
             address.CEP = ceepAddress.Cep;
             address.Bairro = ceepAddress.Bairro;
             address.Cidade = ceepAddress.Cidade;
-            address.UF = ceepAddress.UF;
+            address.UF = "SC";
             address.Numero = "666";
             user.Nome = "Joana";
             user.Cpf = "28004996051";
             user.Rg = "567467";
-            user.Senha = "Anaoj";
+            user.Senha = "123456";
             user.Telefone = "479999995";
-            user.Email = "twenty@gmail.com";
-            user.EnderecoId = 3;
+            user.Email = "sss@gsss.com";
+            user.EnderecoId = 5;
             AddressUserTransaction tr = new AddressUserTransaction(address, user);
             //Response response = userBLL.Insert(user);
             //MessageBox.Show(response.Message);
         }
+
     }
 }

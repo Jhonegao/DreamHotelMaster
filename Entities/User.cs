@@ -17,7 +17,7 @@ namespace Entities
         [@MinLength(11)]
         public string Cpf { get; set; }
         [Length(15)]
-        [@MinLength(15)]
+        [@MinLength(5)]
         public string Rg { get; set; }
         [Length(60)]
         [@MinLength(10)]
