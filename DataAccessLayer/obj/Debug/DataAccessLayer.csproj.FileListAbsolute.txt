@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\RepoHotel\DreamHotelMaster\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
 C:\RepoHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\DataAccessLayer.dll
 C:\RepoHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
@@ -8,3 +9,14 @@ C:\RepoHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\Entities.pdb
 C:\RepoHotel\DreamHotelMaster\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\RepoHotel\DreamHotelMaster\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\RepoHotel\DreamHotelMaster\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+=======
+C:\RepositorioHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\RepositorioHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\RepositorioHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\Common.dll
+C:\RepositorioHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\Entities.dll
+C:\RepositorioHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\Common.pdb
+C:\RepositorioHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\Entities.pdb
+C:\RepositorioHotel\DreamHotelMaster\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\RepositorioHotel\DreamHotelMaster\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\RepositorioHotel\DreamHotelMaster\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+>>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743

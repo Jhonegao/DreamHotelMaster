@@ -10,6 +10,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Correios.CEP;
+using System.Drawing.Text;
+using System.IO;
+using System.Collections.ObjectModel;
 
 namespace PresentationLayer
 {
@@ -18,6 +21,7 @@ namespace PresentationLayer
         public FormCadastroCliente()
         {
             InitializeComponent();
+
         }
         List<Control> controles = new List<Control>();
 
@@ -281,6 +285,7 @@ namespace PresentationLayer
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             //AddressBLL addressBLL = new AddressBLL();
             //UserBLL userBLL = new UserBLL();
             User user = new User();
@@ -303,6 +308,17 @@ namespace PresentationLayer
             AddressUserTransaction tr = new AddressUserTransaction(address, user);
             //Response response = userBLL.Insert(user);
             //MessageBox.Show(response.Message);
+=======
+
+        }
+
+        private void FormCadastroCliente_Load(object sender, EventArgs e)
+        {
+            string path = Path.Combine(Environment.CurrentDirectory, @"Fonts\", "GatsbyFLF.ttf");
+            PrivateFontCollection pfc = new PrivateFontCollection();
+            pfc.AddFontFile(path);
+            FontFamily fontFamily = new FontFamily(pfc.Families.First().Name, pfc);
+>>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
         }
 
     }

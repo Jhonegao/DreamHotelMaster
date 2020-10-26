@@ -7,6 +7,7 @@ C:\Users\User\source\repos\HotelSystem-master\Entities\obj\Debug\Entities.csproj
 C:\Users\User\source\repos\HotelSystem-master\Entities\obj\Debug\Entities.csproj.CopyComplete
 C:\Users\User\source\repos\HotelSystem-master\Entities\obj\Debug\Entities.dll
 C:\Users\User\source\repos\HotelSystem-master\Entities\obj\Debug\Entities.pdb
+<<<<<<< HEAD
 C:\RepoHotel\DreamHotelMaster\Entities\bin\Debug\Entities.dll
 C:\RepoHotel\DreamHotelMaster\Entities\bin\Debug\Entities.pdb
 C:\RepoHotel\DreamHotelMaster\Entities\bin\Debug\Common.dll
@@ -15,3 +16,13 @@ C:\RepoHotel\DreamHotelMaster\Entities\obj\Debug\Entities.csprojAssemblyReferenc
 C:\RepoHotel\DreamHotelMaster\Entities\obj\Debug\Entities.csproj.CopyComplete
 C:\RepoHotel\DreamHotelMaster\Entities\obj\Debug\Entities.dll
 C:\RepoHotel\DreamHotelMaster\Entities\obj\Debug\Entities.pdb
+=======
+C:\RepositorioHotel\DreamHotelMaster\Entities\bin\Debug\Entities.dll
+C:\RepositorioHotel\DreamHotelMaster\Entities\bin\Debug\Entities.pdb
+C:\RepositorioHotel\DreamHotelMaster\Entities\bin\Debug\Common.dll
+C:\RepositorioHotel\DreamHotelMaster\Entities\bin\Debug\Common.pdb
+C:\RepositorioHotel\DreamHotelMaster\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\RepositorioHotel\DreamHotelMaster\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\RepositorioHotel\DreamHotelMaster\Entities\obj\Debug\Entities.dll
+C:\RepositorioHotel\DreamHotelMaster\Entities\obj\Debug\Entities.pdb
+>>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743

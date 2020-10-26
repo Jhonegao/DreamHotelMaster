@@ -37,6 +37,7 @@ C:\Users\User\source\repos\HotelSystem-master\PresentationLayer\obj\Debug\Presen
 C:\Users\User\source\repos\HotelSystem-master\PresentationLayer\obj\Debug\PresentationLayer.FormLogin.resources
 C:\Users\User\source\repos\HotelSystem-master\PresentationLayer\obj\Debug\PresentationLayer.FormCadastroCliente.resources
 C:\Users\User\source\repos\HotelSystem-master\PresentationLayer\obj\Debug\PresentationLayer.FormClientes.resources
+<<<<<<< HEAD
 C:\RepoHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.csprojAssemblyReference.cache
 C:\RepoHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.FormCadastroCliente.resources
 C:\RepoHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.FormClientes.resources
@@ -59,3 +60,28 @@ C:\RepoHotel\DreamHotelMaster\PresentationLayer\bin\Debug\Common.pdb
 C:\RepoHotel\DreamHotelMaster\PresentationLayer\bin\Debug\Entities.pdb
 C:\RepoHotel\DreamHotelMaster\PresentationLayer\bin\Debug\DataAccessLayer.pdb
 C:\RepoHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete
+=======
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.csprojAssemblyReference.cache
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.Fonts.Resource1.resources
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.FormCadastroCliente.resources
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.FormClientes.resources
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.FormIndex.resources
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.FormLogin.resources
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.exe
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.pdb
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\bin\Debug\PresentationLayer.exe
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\bin\Debug\PresentationLayer.pdb
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\bin\Debug\BusinessLogicalLayer.dll
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\bin\Debug\Common.dll
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\bin\Debug\Correios.CEP.dll
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\bin\Debug\Entities.dll
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\bin\Debug\DataAccessLayer.dll
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\bin\Debug\BusinessLogicalLayer.pdb
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\bin\Debug\Common.pdb
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\bin\Debug\Entities.pdb
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\bin\Debug\DataAccessLayer.pdb
+C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete
+>>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
