@@ -97,15 +97,12 @@
             this.txtCpf.Font = new System.Drawing.Font("GatsbyFLF", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCpf.ForeColor = System.Drawing.Color.Silver;
             this.txtCpf.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
             this.txtCpf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCpf.Name = "txtCpf";
             this.txtCpf.Size = new System.Drawing.Size(457, 39);
-=======
             this.txtCpf.Margin = new System.Windows.Forms.Padding(4);
             this.txtCpf.Name = "txtCpf";
             this.txtCpf.Size = new System.Drawing.Size(457, 36);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
             this.txtCpf.TabIndex = 23;
             this.txtCpf.Text = "CPF";
             this.txtCpf.Enter += new System.EventHandler(this.txtCpf_Enter);
@@ -119,15 +116,12 @@
             this.txtNome.Font = new System.Drawing.Font("GatsbyFLF", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNome.ForeColor = System.Drawing.Color.Silver;
             this.txtNome.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
             this.txtNome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(457, 39);
-=======
             this.txtNome.Margin = new System.Windows.Forms.Padding(4);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(457, 36);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
             this.txtNome.TabIndex = 22;
             this.txtNome.Text = "Nome";
             this.txtNome.Enter += new System.EventHandler(this.txtNome_Enter);
@@ -145,11 +139,8 @@
             this.btnCadastrar.Font = new System.Drawing.Font("GatsbyFLF", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(180)))), ((int)(((byte)(83)))));
             this.btnCadastrar.Location = new System.Drawing.Point(287, 468);
-<<<<<<< HEAD
             this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
             this.btnCadastrar.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(544, 49);
             this.btnCadastrar.TabIndex = 20;
@@ -165,11 +156,8 @@
             this.labelCadastroCliente.Location = new System.Drawing.Point(365, 28);
             this.labelCadastroCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCadastroCliente.Name = "labelCadastroCliente";
-<<<<<<< HEAD
             this.labelCadastroCliente.Size = new System.Drawing.Size(590, 54);
-=======
             this.labelCadastroCliente.Size = new System.Drawing.Size(340, 52);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
             this.labelCadastroCliente.TabIndex = 21;
             this.labelCadastroCliente.Text = "CADASTRO DE CLIENTE";
             // 
@@ -181,15 +169,12 @@
             this.txtRg.Font = new System.Drawing.Font("GatsbyFLF", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRg.ForeColor = System.Drawing.Color.Silver;
             this.txtRg.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
             this.txtRg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtRg.Name = "txtRg";
             this.txtRg.Size = new System.Drawing.Size(457, 39);
-=======
             this.txtRg.Margin = new System.Windows.Forms.Padding(4);
             this.txtRg.Name = "txtRg";
             this.txtRg.Size = new System.Drawing.Size(457, 36);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
             this.txtRg.TabIndex = 26;
             this.txtRg.Text = "RG";
             this.txtRg.Enter += new System.EventHandler(this.txtRg_Enter);
@@ -203,15 +188,12 @@
             this.txtCidade.Font = new System.Drawing.Font("GatsbyFLF", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCidade.ForeColor = System.Drawing.Color.Silver;
             this.txtCidade.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
             this.txtCidade.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(457, 39);
-=======
             this.txtCidade.Margin = new System.Windows.Forms.Padding(4);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(457, 36);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
             this.txtCidade.TabIndex = 35;
             this.txtCidade.Text = "Cidade";
             this.txtCidade.Enter += new System.EventHandler(this.txtCidade_Enter);
@@ -225,15 +207,12 @@
             this.txtUf.Font = new System.Drawing.Font("GatsbyFLF", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUf.ForeColor = System.Drawing.Color.Silver;
             this.txtUf.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
             this.txtUf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUf.Name = "txtUf";
             this.txtUf.Size = new System.Drawing.Size(217, 39);
-=======
             this.txtUf.Margin = new System.Windows.Forms.Padding(4);
             this.txtUf.Name = "txtUf";
             this.txtUf.Size = new System.Drawing.Size(217, 36);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
             this.txtUf.TabIndex = 34;
             this.txtUf.Text = "UF";
             this.txtUf.Enter += new System.EventHandler(this.txtUf_Enter);
@@ -247,15 +226,12 @@
             this.txtPais.Font = new System.Drawing.Font("GatsbyFLF", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPais.ForeColor = System.Drawing.Color.Silver;
             this.txtPais.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
             this.txtPais.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPais.Name = "txtPais";
             this.txtPais.Size = new System.Drawing.Size(217, 39);
-=======
             this.txtPais.Margin = new System.Windows.Forms.Padding(4);
             this.txtPais.Name = "txtPais";
             this.txtPais.Size = new System.Drawing.Size(217, 36);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
             this.txtPais.TabIndex = 31;
             this.txtPais.Text = "País";
             this.txtPais.Enter += new System.EventHandler(this.txtPais_Enter);
@@ -269,15 +245,12 @@
             this.txtCep.Font = new System.Drawing.Font("GatsbyFLF", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCep.ForeColor = System.Drawing.Color.Silver;
             this.txtCep.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
             this.txtCep.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtCep.Name = "txtCep";
             this.txtCep.Size = new System.Drawing.Size(457, 39);
-=======
             this.txtCep.Margin = new System.Windows.Forms.Padding(4);
             this.txtCep.Name = "txtCep";
             this.txtCep.Size = new System.Drawing.Size(457, 36);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
             this.txtCep.TabIndex = 30;
             this.txtCep.Text = "CEP";
             this.txtCep.Enter += new System.EventHandler(this.txtCep_Enter);
@@ -291,15 +264,12 @@
             this.txtRua.Font = new System.Drawing.Font("GatsbyFLF", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRua.ForeColor = System.Drawing.Color.Silver;
             this.txtRua.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
             this.txtRua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtRua.Name = "txtRua";
             this.txtRua.Size = new System.Drawing.Size(217, 39);
-=======
             this.txtRua.Margin = new System.Windows.Forms.Padding(4);
             this.txtRua.Name = "txtRua";
             this.txtRua.Size = new System.Drawing.Size(217, 36);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
             this.txtRua.TabIndex = 43;
             this.txtRua.Text = "Rua";
             this.txtRua.Enter += new System.EventHandler(this.txtRua_Enter);
@@ -313,15 +283,15 @@
             this.txtBairro.Font = new System.Drawing.Font("GatsbyFLF", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBairro.ForeColor = System.Drawing.Color.Silver;
             this.txtBairro.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
+
             this.txtBairro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(217, 39);
-=======
+
             this.txtBairro.Margin = new System.Windows.Forms.Padding(4);
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(217, 36);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+
             this.txtBairro.TabIndex = 42;
             this.txtBairro.Text = "Bairro";
             this.txtBairro.Enter += new System.EventHandler(this.txtBairro_Enter);
@@ -335,15 +305,15 @@
             this.txtTelefone.Font = new System.Drawing.Font("GatsbyFLF", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefone.ForeColor = System.Drawing.Color.Silver;
             this.txtTelefone.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
+
             this.txtTelefone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(217, 39);
-=======
+
             this.txtTelefone.Margin = new System.Windows.Forms.Padding(4);
             this.txtTelefone.Name = "txtTelefone";
             this.txtTelefone.Size = new System.Drawing.Size(217, 36);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+
             this.txtTelefone.TabIndex = 46;
             this.txtTelefone.Text = "Telefone";
             this.txtTelefone.Enter += new System.EventHandler(this.txtTelefone_Enter);
@@ -357,11 +327,11 @@
             this.labelDadosPessoais.Location = new System.Drawing.Point(37, 124);
             this.labelDadosPessoais.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDadosPessoais.Name = "labelDadosPessoais";
-<<<<<<< HEAD
+
             this.labelDadosPessoais.Size = new System.Drawing.Size(376, 54);
-=======
+
             this.labelDadosPessoais.Size = new System.Drawing.Size(224, 52);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+
             this.labelDadosPessoais.TabIndex = 50;
             this.labelDadosPessoais.Text = "Dados Pessoais";
             // 
@@ -373,11 +343,11 @@
             this.labelEndereco.Location = new System.Drawing.Point(564, 124);
             this.labelEndereco.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEndereco.Name = "labelEndereco";
-<<<<<<< HEAD
+
             this.labelEndereco.Size = new System.Drawing.Size(232, 54);
-=======
+
             this.labelEndereco.Size = new System.Drawing.Size(147, 52);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+
             this.labelEndereco.TabIndex = 51;
             this.labelEndereco.Text = "Endereço";
             // 
@@ -387,11 +357,11 @@
             this.panelNome.Controls.Add(this.txtNome);
             this.panelNome.Controls.Add(this.linhaNome);
             this.panelNome.Location = new System.Drawing.Point(47, 193);
-<<<<<<< HEAD
+
             this.panelNome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
+
             this.panelNome.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+
             this.panelNome.Name = "panelNome";
             this.panelNome.Size = new System.Drawing.Size(457, 40);
             this.panelNome.TabIndex = 52;
@@ -402,11 +372,11 @@
             this.panelCpf.Controls.Add(this.linhaCpf);
             this.panelCpf.Controls.Add(this.txtCpf);
             this.panelCpf.Location = new System.Drawing.Point(47, 254);
-<<<<<<< HEAD
+
             this.panelCpf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
+
             this.panelCpf.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+
             this.panelCpf.Name = "panelCpf";
             this.panelCpf.Size = new System.Drawing.Size(457, 40);
             this.panelCpf.TabIndex = 53;
@@ -428,11 +398,11 @@
             this.panelRg.Controls.Add(this.linhaRg);
             this.panelRg.Controls.Add(this.txtRg);
             this.panelRg.Location = new System.Drawing.Point(47, 315);
-<<<<<<< HEAD
+
             this.panelRg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
+
             this.panelRg.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+
             this.panelRg.Name = "panelRg";
             this.panelRg.Size = new System.Drawing.Size(457, 40);
             this.panelRg.TabIndex = 54;
@@ -454,11 +424,11 @@
             this.panelTelefone.Controls.Add(this.linhaTelefone);
             this.panelTelefone.Controls.Add(this.txtTelefone);
             this.panelTelefone.Location = new System.Drawing.Point(47, 375);
-<<<<<<< HEAD
+
             this.panelTelefone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
+
             this.panelTelefone.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+
             this.panelTelefone.Name = "panelTelefone";
             this.panelTelefone.Size = new System.Drawing.Size(217, 40);
             this.panelTelefone.TabIndex = 55;
@@ -480,11 +450,10 @@
             this.panelTelefone2.Controls.Add(this.linhaTelefone2);
             this.panelTelefone2.Controls.Add(this.txtTelefone2);
             this.panelTelefone2.Location = new System.Drawing.Point(287, 375);
-<<<<<<< HEAD
             this.panelTelefone2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
+
             this.panelTelefone2.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+
             this.panelTelefone2.Name = "panelTelefone2";
             this.panelTelefone2.Size = new System.Drawing.Size(217, 40);
             this.panelTelefone2.TabIndex = 56;
@@ -508,15 +477,13 @@
             this.txtTelefone2.Font = new System.Drawing.Font("GatsbyFLF", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefone2.ForeColor = System.Drawing.Color.Silver;
             this.txtTelefone2.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
+
             this.txtTelefone2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTelefone2.Name = "txtTelefone2";
             this.txtTelefone2.Size = new System.Drawing.Size(217, 39);
-=======
             this.txtTelefone2.Margin = new System.Windows.Forms.Padding(4);
             this.txtTelefone2.Name = "txtTelefone2";
             this.txtTelefone2.Size = new System.Drawing.Size(217, 36);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
             this.txtTelefone2.TabIndex = 46;
             this.txtTelefone2.Text = "Telefone*";
             this.txtTelefone2.Enter += new System.EventHandler(this.txtTelefone2_Enter);
@@ -528,11 +495,11 @@
             this.panelCep.Controls.Add(this.linhaCep);
             this.panelCep.Controls.Add(this.txtCep);
             this.panelCep.Location = new System.Drawing.Point(573, 192);
-<<<<<<< HEAD
+
             this.panelCep.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
+
             this.panelCep.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+
             this.panelCep.Name = "panelCep";
             this.panelCep.Size = new System.Drawing.Size(457, 40);
             this.panelCep.TabIndex = 57;
@@ -554,11 +521,11 @@
             this.panelPais.Controls.Add(this.linhaPais);
             this.panelPais.Controls.Add(this.txtPais);
             this.panelPais.Location = new System.Drawing.Point(573, 254);
-<<<<<<< HEAD
+
             this.panelPais.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
+
             this.panelPais.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+
             this.panelPais.Name = "panelPais";
             this.panelPais.Size = new System.Drawing.Size(217, 40);
             this.panelPais.TabIndex = 58;
@@ -580,11 +547,11 @@
             this.panelUf.Controls.Add(this.LinhaUf);
             this.panelUf.Controls.Add(this.txtUf);
             this.panelUf.Location = new System.Drawing.Point(813, 254);
-<<<<<<< HEAD
+
             this.panelUf.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
+
             this.panelUf.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+
             this.panelUf.Name = "panelUf";
             this.panelUf.Size = new System.Drawing.Size(217, 40);
             this.panelUf.TabIndex = 59;
@@ -606,11 +573,11 @@
             this.panelCidade.Controls.Add(this.linhaCidade);
             this.panelCidade.Controls.Add(this.txtCidade);
             this.panelCidade.Location = new System.Drawing.Point(573, 315);
-<<<<<<< HEAD
+
             this.panelCidade.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
+
             this.panelCidade.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+
             this.panelCidade.Name = "panelCidade";
             this.panelCidade.Size = new System.Drawing.Size(457, 40);
             this.panelCidade.TabIndex = 60;
@@ -632,11 +599,11 @@
             this.panelBairro.Controls.Add(this.linhaBairro);
             this.panelBairro.Controls.Add(this.txtBairro);
             this.panelBairro.Location = new System.Drawing.Point(573, 375);
-<<<<<<< HEAD
+
             this.panelBairro.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
+
             this.panelBairro.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+
             this.panelBairro.Name = "panelBairro";
             this.panelBairro.Size = new System.Drawing.Size(217, 40);
             this.panelBairro.TabIndex = 61;
@@ -658,11 +625,10 @@
             this.panelRua.Controls.Add(this.linhaRua);
             this.panelRua.Controls.Add(this.txtRua);
             this.panelRua.Location = new System.Drawing.Point(813, 375);
-<<<<<<< HEAD
+
             this.panelRua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
+
             this.panelRua.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
             this.panelRua.Name = "panelRua";
             this.panelRua.Size = new System.Drawing.Size(217, 40);
             this.panelRua.TabIndex = 62;
@@ -700,11 +666,8 @@
             this.Controls.Add(this.labelDadosPessoais);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.labelCadastroCliente);
-<<<<<<< HEAD
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
             this.Margin = new System.Windows.Forms.Padding(4);
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
             this.Name = "FormCadastroCliente";
             this.Text = "Cadastro de Cliente";
             this.Load += new System.EventHandler(this.FormCadastroCliente_Load);

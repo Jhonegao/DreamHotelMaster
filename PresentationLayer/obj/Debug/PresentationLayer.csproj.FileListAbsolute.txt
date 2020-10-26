@@ -85,3 +85,4 @@ C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\bin\Debug\Entities.pdb
 C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\bin\Debug\DataAccessLayer.pdb
 C:\RepositorioHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete
 >>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
+C:\RepoHotel\DreamHotelMaster\PresentationLayer\obj\Debug\PresentationLayer.Fonts.Resource1.resources

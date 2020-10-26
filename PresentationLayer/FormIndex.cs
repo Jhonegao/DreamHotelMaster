@@ -19,7 +19,6 @@ namespace PresentationLayer
             hideSubMenu();
         }
 
-<<<<<<< HEAD
         //private void button1_Click(object sender, EventArgs e)
         //{
         //    Address address = new Address();
@@ -38,11 +37,9 @@ namespace PresentationLayer
         //    user.Email = "wtrteytyty";
         //    user.EnderecoId = 1;
         //}
-=======
         private void button1_Click(object sender, EventArgs e)
         {
         }
->>>>>>> b8c3d7dcc45d5e48dbb83d3eadfcef661b682743
 
         #region Sub Menus
 
