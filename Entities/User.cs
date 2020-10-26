@@ -23,10 +23,10 @@ namespace Entities
         [@MinLength(10)]
         public string Email { get; set; }
         [Length(15)]
-        [@MinLength(15)]
+        [@MinLength(8)]
         public string Telefone { get; set; }
         [Length(15)]
-        [@MinLength(15)]
+        [@MinLength(8)]
         public string Telefone_Aux { get; set; } = "Não informadoi";
         public int EnderecoId { get; set; }
         public Address Endereco { get; set; }
