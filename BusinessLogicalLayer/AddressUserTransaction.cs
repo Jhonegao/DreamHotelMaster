@@ -24,15 +24,15 @@ namespace BusinessLogicalLayer
 
                 AddressBLL addressBLL = new AddressBLL();
 
-                SingleResponse<int> responseAddressID = addressBLL.Inserir(endereco, connection);
+                SingleResponse<int> responseAddressID = addressBLL.Insert(endereco, connection);
                 if (responseAddressID.Success)
                 {
                     usuario.EnderecoId = responseAddressID.Data;
                     UserBLL userBLL = new UserBLL();
                     Response responseUser = userBLL.Insert(usuario, connection);
                     if (responseUser.Success) {
-                        MessageBox.Show(responseUser.Message);
                         scope.Complete();
+                        MessageBox.Show(responseUser.Message);
                     }
                     else
                     {

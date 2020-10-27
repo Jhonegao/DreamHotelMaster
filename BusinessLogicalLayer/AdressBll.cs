@@ -14,21 +14,21 @@ namespace BusinessLogicalLayer
     public class AddressBLL : BaseValidator<Address>
     {
         private AddressDAO addressDAO = new AddressDAO();
-        public Response Insert(Address item)
+        //public Response Insert(Address item)
+        //{
+        //    Response response = Validate(item);
+        //    if (response.Success)
+        //    {
+        //        return addressDAO.Insert(item);
+        //    }
+        //    return response;
+        //}
+        public SingleResponse<int> Insert(Address item, SqlConnection connection)
         {
             Response response = Validate(item);
             if (response.Success)
             {
-                return addressDAO.Insert(item);
-            }
-            return response;
-        }
-        public SingleResponse<int> Inserir(Address item, SqlConnection connection)
-        {
-            Response response = Validate(item);
-            if (response.Success)
-            {
-                return addressDAO.Inserir(item, connection);
+                return addressDAO.Insert(item, connection);
             }
             return (SingleResponse<int>)response;
         }
