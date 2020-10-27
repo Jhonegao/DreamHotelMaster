@@ -12,11 +12,11 @@ namespace DataAccessLayer
 {
     public class UserDAO
     {
-        public Response Insert(User user, SqlConnection connection)
+        public Response Insert(User user)
         {
             Response dbResponse = new Response();
-            //SqlConnection connection = new SqlConnection();
-            //connection.ConnectionString = ConnectionHelper.GetConnectionString();
+            SqlConnection connection = new SqlConnection();
+            connection.ConnectionString = ConnectionHelper.GetConnectionString();
             SqlCommand command = new SqlCommand();
             command.CommandText = "INSERT INTO Users (NOME, CPF, RG, EMAIL, TELEFONE1, TELEFONE2, ENDERECOID, SENHA, ISADMIN) VALUES (@NOME, @CPF, @RG, @EMAIL, @TELEFONE1, @TELEFONE2, @ENDERECOID, @SENHA, @ISADMIN)";
             command.Parameters.AddWithValue("@NOME", user.Nome);
@@ -33,7 +33,7 @@ namespace DataAccessLayer
 
             try
             {
-                //connection.Open();
+                connection.Open();
                 command.ExecuteNonQuery();
                 dbResponse.Success = true;
                 dbResponse.Message = "Usario cadastrado com sucesso!";
@@ -48,7 +48,7 @@ namespace DataAccessLayer
             }
             finally
             {
-                //connection.Close();
+                connection.Close();
             }
             return dbResponse;
         }

@@ -13,6 +13,7 @@ using Correios.CEP;
 using System.Drawing.Text;
 using System.IO;
 using System.Collections.ObjectModel;
+using Common;
 
 namespace PresentationLayer
 {
@@ -286,7 +287,7 @@ namespace PresentationLayer
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
             //AddressBLL addressBLL = new AddressBLL();
-            //UserBLL userBLL = new UserBLL();
+            UserBLL userBLL = new UserBLL();
             User user = new User();
             cepConsulta ceepAddress = correiosCEP.GetAddress("88345677");
             Address address = new Address();
@@ -303,7 +304,11 @@ namespace PresentationLayer
             user.Senha = "123456";
             user.Telefone = "479999995";
             user.Email = "tesss@teste.com";
-            AddressUserTransaction tr = new AddressUserTransaction(address, user);
+            user.Endereco = address;
+            userBLL.InsertAddressUserTransaction(user);
+
+            //Response response = new AddressUserTransaction().InsertAddressUserTransaction(user);
+            //MessageBox.Show(response.Message);
             //Response response = userBLL.Insert(user);
             //MessageBox.Show(response.Message);
         }

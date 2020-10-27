@@ -9,3 +9,13 @@ C:\RepoHotel\Hotel-master\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreC
 C:\RepoHotel\Hotel-master\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\RepoHotel\Hotel-master\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\RepoHotel\Hotel-master\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\RepoHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\RepoHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\RepoHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\Common.dll
+C:\RepoHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\Entities.dll
+C:\RepoHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\Common.pdb
+C:\RepoHotel\DreamHotelMaster\DataAccessLayer\bin\Debug\Entities.pdb
+C:\RepoHotel\DreamHotelMaster\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\RepoHotel\DreamHotelMaster\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\RepoHotel\DreamHotelMaster\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\RepoHotel\DreamHotelMaster\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

@@ -48,8 +48,10 @@ namespace DataAccessLayer
         //    }
         //    return dbResponse;
         //}
-        public SingleResponse<int>Insert(Address address, SqlConnection connection)
+        public SingleResponse<int>Insert(Address address)
         {
+            SqlConnection connection = new SqlConnection();
+            connection.ConnectionString = ConnectionHelper.GetConnectionString();
             SingleResponse<int> response = new SingleResponse<int>();
             SqlCommand command = new SqlCommand();
             command.CommandText = "INSERT INTO ADDRESSES (NUMERO,RUA,BAIRRO,CIDADE,UF,CEP,PAIS) VALUES (@NUMERO, @RUA, @BAIRRO, @CIDADE, @UF, @CEP, @PAIS)" + "SELECT CAST(scope_identity() AS int)";
@@ -63,6 +65,7 @@ namespace DataAccessLayer
             command.Connection = connection;
             try
             {
+                connection.Open();
                 response.Data = (int)command.ExecuteScalar();
                 response.Success = true;
                 response.Message = "Endereco cadastrado com sucesso!";
@@ -74,6 +77,10 @@ namespace DataAccessLayer
                 response.ExceptionError = ex.Message;
                 response.StackTrace = ex.StackTrace;
                 return response;
+            }
+            finally
+            {
+                connection.Close();
             }
             return response;
         }

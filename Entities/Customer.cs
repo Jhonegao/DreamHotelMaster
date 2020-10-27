@@ -21,7 +21,7 @@ namespace Entities
         public string RG { get; set; }
         [Length(15)]
         [@MinLength(15)]
-        public List<string> Telefones { get; set; }
+        public string Telefone { get; set; }
         [Length(60)]
         [@MinLength(10)]
         public string Email { get; set; }
