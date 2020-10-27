@@ -21,12 +21,15 @@ namespace BusinessLogicalLayer
                 SqlConnection connection = new SqlConnection();
                 connection.ConnectionString = ConnectionHelper.GetConnectionString();
                 connection.Open();
+
                 AddressBLL addressBLL = new AddressBLL();
-                UserBLL userBLL = new UserBLL();
-                Response responseAddress = addressBLL.Insert(endereco);
-                if (responseAddress.Success)
+
+                SingleResponse<int> responseAddressID = addressBLL.Inserir(endereco, connection);
+                if (responseAddressID.Success)
                 {
-                    Response responseUser = userBLL.Insert(usuario);
+                    usuario.EnderecoId = responseAddressID.Data;
+                    UserBLL userBLL = new UserBLL();
+                    Response responseUser = userBLL.Insert(usuario, connection);
                     if (responseUser.Success) {
                         MessageBox.Show(responseUser.Message);
                         scope.Complete();
@@ -38,7 +41,7 @@ namespace BusinessLogicalLayer
                 }
                 else
                 {
-                    MessageBox.Show(responseAddress.Message);
+                    MessageBox.Show(responseAddressID.Message);
                 }
                 connection.Close();
             }

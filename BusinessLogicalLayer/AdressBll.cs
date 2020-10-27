@@ -4,6 +4,7 @@ using DataAccessLayer;
 using Entities;
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,16 @@ namespace BusinessLogicalLayer
             }
             return response;
         }
+        public SingleResponse<int> Inserir(Address item, SqlConnection connection)
+        {
+            Response response = Validate(item);
+            if (response.Success)
+            {
+                return addressDAO.Inserir(item, connection);
+            }
+            return (SingleResponse<int>)response;
+        }
+
         public Response Update(Address item)
         {
             Response response = Validate(item);

@@ -16,7 +16,7 @@ namespace DataAccessLayer.Infraestructure
         
         public static string GetConnectionString()
         {
-            return JhonDBPROWAY;
+            return JhonDBcasa;
         }
     }
 }
