@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddressDAO.cs" />
-    <Compile Include="CustumerDAO.cs" />
+    <Compile Include="CustomerDAO.cs" />
     <Compile Include="DbAccess.cs" />
     <Compile Include="Infraestructure\ConnectionHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

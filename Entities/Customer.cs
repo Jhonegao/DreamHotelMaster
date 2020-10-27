@@ -17,11 +17,14 @@ namespace Entities
         [@MinLength(11)]
         public string CPF { get; set; }
         [Length(15)]
-        [@MinLength(15)]
+        [@MinLength(5)]
         public string RG { get; set; }
         [Length(15)]
-        [@MinLength(15)]
+        [@MinLength(7)]
         public string Telefone { get; set; }
+        [Length(15)]
+        [@MinLength(7)]
+        public string Telefone_aux { get; set; } = "NÃO INFORMADO";
         [Length(60)]
         [@MinLength(10)]
         public string Email { get; set; }

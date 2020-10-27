@@ -50,6 +50,7 @@
     <Compile Include="Checkers\CheckCpfRule.cs" />
     <Compile Include="Checkers\CheckEmailRule.cs" />
     <Compile Include="AdressBLL.cs" />
+    <Compile Include="CustomerBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserBLL.cs" />
   </ItemGroup>

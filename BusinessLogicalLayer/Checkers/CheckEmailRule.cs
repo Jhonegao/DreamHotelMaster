@@ -16,9 +16,13 @@ namespace BusinessLogicalLayer.Checkers
                 MailAddress m = new MailAddress(emailaddress);
                 return "";
             }
-            catch (FormatException)
+            catch(FormatException)
             {
                 return "Formato de email inválido";
+            }
+            catch (ArgumentNullException)
+            {
+                return "Email deve ser informado.";
             }
         }
     }

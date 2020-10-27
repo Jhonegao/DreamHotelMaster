@@ -12,11 +12,12 @@ namespace DataAccessLayer.Infraestructure
 
         const string JhonDBcasa = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\repositories\DreamHotel\dbt\dbHotel.mdf;Integrated Security=True;Connect Timeout=30";
         
-        const string JoanaDBcasa = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\entra21\Documents\DataBHotel.mdf;Integrated Security=True;Connect Timeout=30";
+        const string JoanaDBPROWAY = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\entra21\Documents\DataBHotel.mdf;Integrated Security=True;Connect Timeout=30";
+
         
         public static string GetConnectionString()
         {
-            return JhonDBPROWAY;
+            return JoanaDBPROWAY;
         }
     }
 }

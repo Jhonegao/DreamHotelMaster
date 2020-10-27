@@ -52,13 +52,17 @@ namespace BusinessLogicalLayer
             if (CheckAnyProperty.IsAnyNullOrEmpty(item))
             {
                 AddError("Todos os campos do endereco devem ser informados");
+                return base.Validate(item);
             }
             foreach (string err in CheckAttributeLength.AttributeLength<User>(item))
             {
                 AddError(err);
             }
             AddError(item.Cpf.IsValidCPF());
-            AddError(item.Email.IsValidEmail());
+            if (item.Email != "")
+            {
+                AddError(item.Email.IsValidEmail());
+            }
             return base.Validate(item);
         }
     }

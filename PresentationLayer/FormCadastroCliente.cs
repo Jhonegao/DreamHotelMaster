@@ -287,25 +287,25 @@ namespace PresentationLayer
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
             //AddressBLL addressBLL = new AddressBLL();
-            UserBLL userBLL = new UserBLL();
-            User user = new User();
-            cepConsulta ceepAddress = correiosCEP.GetAddress("88345677");
+            CustomerBLL customerBLL = new CustomerBLL();
+            Customer customer = new Customer();
+            //cepConsulta cepAddress = correiosCEP.GetAddress("88345677");
+
             Address address = new Address();
             address.Pais = "Brasil";
-            address.Rua = "rua teste";
-            address.CEP = ceepAddress.Cep;
+            address.Rua = "rua um";
+            address.CEP = "88220000";
             address.Bairro = "bairro teste";
-            address.Cidade = ceepAddress.Cidade;
-            address.UF = "SC";
-            address.Numero = "666";
-            user.Nome = "TESTE";
-            user.Cpf = "28004996051";
-            user.Rg = "567467";
-            user.Senha = "123456";
-            user.Telefone = "479999995";
-            user.Email = "tesss@teste.com";
-            user.Endereco = address;
-            userBLL.InsertAddressUserTransaction(user);
+            address.Cidade = "CAMBORIU";
+            address.UF = "PR";
+            address.Numero = "126";
+            customer.Nome = "TESTE";
+            customer.CPF = "12600204954";
+            customer.RG = "567467";
+            customer.Telefone = "479999995";
+            //customer.Email = "";
+            customer.Endereco = address;
+            customerBLL.InsertAddressCustomerTransaction(customer);
 
             //Response response = new AddressUserTransaction().InsertAddressUserTransaction(user);
             //MessageBox.Show(response.Message);
